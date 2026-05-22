@@ -7,7 +7,7 @@ print("====== WEATHER INFORMATION USING API ======")
 city = input("Enter city name: ")
 
 # OpenWeatherMap API URL
-url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=2692b4190b03dc9bd8fd870df3e8a549&units=metric"
+url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid="your api_key"&units=metric"
 
 try:
     # Sending GET request
